@@ -2,4 +2,46 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+header {
+  margin: 10px;
+}
+header nav a {
+  background: hsl(0, 0%, 82%);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+header nav a:hover {
+background: hsl(0, 0%, 60%);
+}
+header nav a:visited {
+  color: purple;
+}
+
+
+#featured-property {
+  max-width: 900px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+#featured-property figure {
+  margin: unset;
+  max-width: inherit;
+  min-width: inherit;
+}
+#featured-property img {
+  max-width: inherit;
+  min-width: inherit;
+}
+
+
+#details {
+  display: flex;
+  justify-content: space-evenly;
+  background: red;
+}
+#details div {
+  max-width: 25%;
 }
